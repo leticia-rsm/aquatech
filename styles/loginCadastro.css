@@ -1,0 +1,120 @@
+/* Login */
+
+.login {
+    height: var(--tamanho-login);
+    color: rgb(255, 0, 128);
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    display: flex;
+}
+
+.login .container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgb(195, 195, 195);
+    border-radius: 25px;
+}
+
+.card-login {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+}
+
+.card-login h2 {
+    font-size: 40px;
+    align-self: center;
+}
+
+.formulario {
+    width: 100%;
+    height: 90%;
+}
+
+.formulario .container {
+    height: 100%;
+    flex-direction: column;
+}
+
+.campo {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.campo input {
+    padding: 10px;
+    border: 2px solid #32b9cd;
+    border-radius: 9px;
+    text-align: center;
+}
+
+.campo span {
+    font-size: 17px;
+}
+
+.botao {
+    height: 20%;
+    width: 25%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(255, 0, 128);
+}
+
+/* Cadastro */
+
+.cadastro {
+    height: var(--tamanho-login);
+    color: rgb(255, 0, 128);
+    background-image: url('../assets/imgs/bg-jelly-fish-para-home.png');
+    background-size: cover;
+    display: flex;
+}
+
+.cadastro .container {
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-cadastro {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    padding: 10px;
+}
+
+.card-cadastro h2 {
+    font-size: 50px;
+    align-self: center;
+}
+
+.card-cadastro .campo {
+    height: 18%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-cadastro .botao {
+    height: 10%;
+    width: 18%;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(255, 0, 128);
+}

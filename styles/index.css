@@ -45,7 +45,7 @@ body {
 .navbar {
     width: 300px;
     display: flex;
-    align-items: conter;
+    align-items: center;
     justify-content: space-between;
     list-style: none;
     color: #e3b062;
